@@ -1,0 +1,25 @@
+{
+    "name": "jenish7862/module-stripeintegration",
+    "description": "The extension extension for admin dashboard.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+	"license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Kgkrunch Solution",
+            "email": "info@kgkrunch.com"
+        }
+    ],
+	"minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+	"autoload": {
+         "psr-4": {
+            "Kgkrunch\\StripeIntegration\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
